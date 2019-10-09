@@ -10,7 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 public class DragDrop {
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Parthi Rajan\\eclipse-workspace\\lenin\\SeleniumProject\\driver\\chromedriver.exe");
+				"C:\\Users\\Parthi Rajan\\Desktop\\New folder\\FrameDrag\\driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://demo.guru99.com/test/drag_drop.html");
 		WebElement scroll = driver.findElement(By.xpath("(//li[@class='placeholder'])[4]"));
